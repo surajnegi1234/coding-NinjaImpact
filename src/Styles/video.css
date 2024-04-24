@@ -1,0 +1,143 @@
+.pre-video-container{
+  width: 100%;
+  padding: 20px 20px;
+  margin-top: 4.5rem;
+}
+
+.video-container{
+    max-width: 976px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.video-container>video{
+  width: 100%;
+  border-radius: 16px;
+  object-fit: contain;
+
+
+}
+.video-play-button{
+    position: absolute;
+    padding: 2px;
+    max-width: 80px;
+    min-width: 80px;
+    width:100% ;
+    max-height: 80px;
+    min-height: 80px;
+    height:100% ;
+    top:50%;
+    left:50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.pause-button {
+    color: white;
+    width: 34px;
+    height: 39px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .music-container{
+    width: 40px;
+    max-width: 40px;
+    min-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    height:40px ;
+    position: absolute;
+    top:20px;
+    right: 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+
+  }
+  
+   .video-controllers{
+    position: absolute;
+    bottom: 20px;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+   }
+   .play-button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width:24px;
+    max-width:24px;
+    min-width:24px;
+    height:24px;
+    min-height:24px;
+    max-height:24px;
+    border-radius: 50px;
+    padding: 2px;
+    cursor: pointer;
+    margin-left :20px; 
+    
+   }
+   .play2-button{
+    background-image: url(https://files.codingninjas.com/play-fill-32302.svg);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    width: 12px;
+    max-width: 12px;
+    min-width:12px;
+    height: 12px;
+    min-height: 12px;
+    max-height:12px ;
+    cursor: pointer;
+   }
+   .scroll-bar{
+    background: rgba(255,255,255,.3);
+    cursor: pointer;
+    border-radius: 20px;
+    width:100%;
+    height: 0.6rem;
+    display: flex;
+    align-items: center;
+  
+   
+   }
+   .scroll-bar-inside{
+    width: 0;
+    background: #ffffff;
+    cursor: pointer;
+    height: 6px;
+    border-radius: 20px; 
+
+   }
+   .timer{
+    color: white;
+    margin-right: 20px;
+    width: 32px;
+    max-width: 32px;
+    min-width:32px ;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    font-size: 16px;
+    line-height: 24px;
+    
+    
+   }

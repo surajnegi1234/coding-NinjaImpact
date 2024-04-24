@@ -1,0 +1,222 @@
+.upskill-co {
+  opacity: 1;
+  left: -390px;
+  color: #141414;
+  background-color: #ffffff;
+  top: 64px;
+  border-radius: 0 0 20px 20px;
+  width: fit-content;
+  position: absolute;
+}
+.up-co {
+  overflow: hidden;
+  width: 100%;
+}
+.upskilling {
+  display: flex !important;
+  cursor: default;
+  width: 100%;
+  flex-direction: row !important;
+  height: 29rem;
+}
+.upskilling-part {
+  box-sizing: border-box;
+  padding: 20px 24px 20px 24px;
+  background-color: #fff6f3;
+  box-sizing: border-box;
+  border-radius: 0 0 20px 20px;
+}
+.header {
+  box-sizing: border-box;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: default;
+  font-family: "Mulish" Arial, Helvetica, sans-serif;
+  color: #141414;
+  box-sizing: border-box;
+}
+.header2 {
+  box-sizing: border-box;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 32px;
+  color: #838485;
+  box-sizing: border-box;
+}
+.live:hover {
+  background-color: white;
+  border-radius: 10px;
+}
+#color-white {
+  background-color: #f8f8f8;
+}
+#scholar {
+  display: flex !important;
+  padding: 20px 12px 20px 20px;
+  background-color: #ffffff;
+  border-radius: 20px !important;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+.image-scholar {
+  width: 50px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.image-scholar > img {
+  max-width: 28px;
+  width: 100%;
+  max-height: 28px;
+  height: 100%;
+  margin-top: 2px;
+  box-sizing: border-box;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.get-upto {
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  width: 14rem;
+  box-sizing: border-box;
+}
+.get-upto > span {
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  background: linear-gradient(315deg, #8d38ea, #3d85fe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-sizing: border-box;
+}
+.know {
+  /* border: 2px solid violet; */
+  box-sizing: border-box;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f66c3b;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  background-color: unset;
+  display: flex;
+  text-decoration: none;
+  border-radius: none;
+  vertical-align: baseline;
+  text-align: center;
+  vertical-align: baseline;
+  margin-top: 14px;
+  box-sizing: border-box;
+}
+.know > span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f66c3b;
+  text-align: center;
+  gap: 8px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.arrow {
+  transform: rotate(-45deg);
+  height: 20px;
+  width: 20px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  color: #f66c3b;
+  margin-top: 2px;
+  box-sizing: border-box;
+}
+.content {
+  width: 15rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+.upskilling-part2 {
+  padding: 14px;
+  box-sizing: border-box;
+}
+.upskill-header {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  letter-spacing: 0;
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  cursor: default;
+  box-sizing: border-box;
+}
+
+.upskill-header1 {
+  letter-spacing: 0;
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  cursor: default;
+  color: #141414;
+  box-sizing: border-box;
+}
+.upskill-header2 {
+  color: #838485;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: default;
+  margin-bottom: 13px;
+  box-sizing: border-box;
+}
+.upskill-section {
+  display: flex;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+.upskill-section1 {
+  padding: 6px 28px 30px 28px;
+  border-right: 1px solid #f1f2f2;
+  box-sizing: border-box;
+
+}
+
+.upskill-section2 {
+  width: 100%;
+  cursor: default;
+}
+.skill-container {
+  box-sizing: border-box;
+}
+.fullStack {
+  color: #5780e9;
+
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  margin: 27px 0 14px;
+  width: 20rem;
+
+  box-sizing: border-box;
+}

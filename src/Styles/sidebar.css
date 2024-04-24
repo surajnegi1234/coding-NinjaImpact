@@ -1,0 +1,170 @@
+.sidebar-container{
+   
+        height: 100vh;
+        background: #ffffff;
+        z-index: 1;
+        color: black;
+        margin: auto;
+        width: 100%;
+        position: absolute; 
+        overflow-y: scroll;
+        left: 50%;
+        transform: translateX(-50%); 
+        top: 0;
+}
+
+#headers-container{
+    border: 2px solid #e3e3e3;
+    background: #ffffff;
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    top:0;
+    column-gap: 16px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    position: sticky;
+    z-index: 4000;
+    color: #141414;
+}
+
+.bootcamp-course-container{
+    row-gap: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:16px ;
+    padding-left: 16px;
+}
+.bootcamp-first-container{
+    row-gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.bootcamp-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bootcamp-header1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.bootcamp-header1{
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+   
+}
+.bootcamp-header1>div{
+    color: #7f7f7f;
+    letter-spacing: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+}
+.Book{
+    color: #5780e9;
+    border-bottom: 1px solid #5780e9;
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    height: max-content;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+
+}
+.full-stack-web{
+    border: 1px solid #e3e3e3;
+    text-decoration: none;
+    color: black;
+    column-gap: 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding-top:16px ;
+    padding-bottom: 16px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+
+}
+.full-stack-web>img{
+    width: 32px;
+    min-width: 32px;
+    max-width:32px;
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+}
+.bootcamp-second-container{
+    display: flex;
+    flex-direction: column;
+    font-family: "Mulish",Arial, Helvetica, sans-serif;
+    color: black;
+}
+.upskiling-border{
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+
+}
+.scholarship-card{
+    background-color:#fff6f3;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 12px;
+    
+}
+.scholarship-card>.body-content{
+    letter-spacing: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: 196px !important;
+    min-width: 196px !important;
+    max-width: 196px !important;
+    font-family:'Mulish',Arial, Helvetica, sans-serif;
+    color: #141414;
+}
+.gradient{
+    background: linear-gradient(271deg, #8d38ea -3.53%, #3d85fe 76.43%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:'Mulish',Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.know-more{
+ color:#f66c3b;
+ border-bottom :1px solid #f66c3b;
+ letter-spacing: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    height: fit-content;
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 460px) and (max-width: 980px){
+.sidebar-container{
+     max-width: 460px;
+
+}
+    
+}

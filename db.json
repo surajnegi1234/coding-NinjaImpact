@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "id": "c626",
+      "username": "Surajnegi",
+      "email": "negisuraj438@gmail.com",
+      "password": "Suraj123qwer@#$",
+      "confirmPassword": "Suraj123qwer@#$"
+    },
+    {
+      "id": "b3b3",
+      "username": "Surajnegi",
+      "email": "negisuraj438@gmail.com",
+      "password": "Suraj123qwer@#$",
+      "confirmPassword": "Suraj123qwer@#$"
+    }
+  ]
+}
